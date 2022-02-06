@@ -1,6 +1,0 @@
-0000000000000000000000000000000000000000 d14b4413b2ddb5264240cad404457c0a4cb5c4b5 Obaid Nasary <obaidnasary@users.noreply.github.com> 1643838547 +0200	commit (initial): initial commit
-d14b4413b2ddb5264240cad404457c0a4cb5c4b5 0000000000000000000000000000000000000000 Obaid Nasary <obaidnasary@users.noreply.github.com> 1643839437 +0200	Branch: renamed refs/heads/master to refs/heads/main
-0000000000000000000000000000000000000000 d14b4413b2ddb5264240cad404457c0a4cb5c4b5 Obaid Nasary <obaidnasary@users.noreply.github.com> 1643839437 +0200	Branch: renamed refs/heads/master to refs/heads/main
-d14b4413b2ddb5264240cad404457c0a4cb5c4b5 0000000000000000000000000000000000000000 Obaid Nasary <obaidnasary@users.noreply.github.com> 1643839728 +0200	Branch: renamed refs/heads/main to refs/heads/main
-d14b4413b2ddb5264240cad404457c0a4cb5c4b5 d14b4413b2ddb5264240cad404457c0a4cb5c4b5 Obaid Nasary <obaidnasary@users.noreply.github.com> 1643839728 +0200	Branch: renamed refs/heads/main to refs/heads/main
-d14b4413b2ddb5264240cad404457c0a4cb5c4b5 2934d95610077a9e90911b5c9e749e84285a27cf Obaid Nasary <obaidnasary@users.noreply.github.com> 1643850921 +0200	commit: Added trending and search apis of Giphy
