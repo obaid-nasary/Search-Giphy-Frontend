@@ -1,5 +1,6 @@
 # IbmGiphy
 
+THE LATEST VERSION IS IN MASTER BRANCH
 
 This is a web application that can process text data that be a word, phrase, sentence or an article using [IBM's Natural Language Understanding Keyword Extraction API](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-getting-started) and extracts keywords from the given text. 
 <br/>The web application is also using another popular Gifs API from [GIPHY API](https://developers.giphy.com/docs/api/endpoint) to search for Gifs using the search endpoint based on the keywords extracted.
