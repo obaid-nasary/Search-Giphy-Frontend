@@ -1,0 +1,23 @@
+<nav>
+  <p>IBM Giphy Search Engine</p>
+</nav>
+
+<!-- Login page -->
+<!-- <app-login></app-login> -->
+
+<div class="search">
+  <h4 class="text_bak">Search for GIFs of your choice</h4>
+  <input id="search-field" type="text" placeholder="Lols, happy, excited..." #gif (keyup.enter)="search(gif.value)">
+</div>
+
+<div class="gifs">
+  <div class='gif' *ngFor="let gif of gifs">
+    <img [src]="gif.images.downsized.url" alt="GIF">
+  </div>
+
+</div>
+
+
+<!-- <app-hearder></app-hearder> -->
+<!-- <app-search></app-search> -->
+<!-- <app-gifs></app-gifs> -->
