@@ -1,5 +1,16 @@
 # IbmGiphy
 
+
+This is a web application that can process text data that be a word, phrase, sentence or an article using [IBM's Natural Language Understanding Keyword Extraction API](https://cloud.ibm.com/docs/natural-language-understanding?topic=natural-language-understanding-getting-started) and extracts keywords from the given text. 
+<br/>The web application is also using another popular Gifs API from [GIPHY API](https://developers.giphy.com/docs/api/endpoint) to search for Gifs using the search endpoint based on the keywords extracted.
+<br/>The application also has back-end which is built in [Spring Boot](https://spring.io/projects/spring-boot) the link to the repository is [obaidnasary/Search-Giphy-Backed](https://github.com/obaidnasary/Search-Giphy-Frontend/tree/master).  
+
+## Features
+
+- Displays trending Gifs of the day or time
+- Extracts keywords from a long text and summarizes it
+- Displays a Gif based on the given text for searching
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
 
 ## Development server
@@ -14,13 +25,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
