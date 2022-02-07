@@ -15,7 +15,6 @@ export class AppComponent implements OnInit{
   giphs: any;
 
   generateKeywords!: string;
-  validate!: string;
 
   gifs: any[] = [];
 
@@ -68,20 +67,6 @@ export class AppComponent implements OnInit{
     }
   }
 
-
-// LOGIN WAS MADE BUT NOT USED ANYMORE
-
-  public login(): void{
-    this.dataService.login("waheedmajroh", "whaheed12").subscribe(
-      (response: string) => {
-        this.validate = response;
-        console.log(response);
-      },
-      (error: HttpErrorResponse) =>  {
-          alert(error.message);
-      }
-    );
-  }
 
 
   ngOnDestroy() {
